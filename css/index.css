@@ -225,6 +225,24 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
+@media (max-width: 500px) {
+  .home .space-images .blast {
+    display: flex;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .home .space-images .launch {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .home .space-images .sky {
+    display: none;
+  }
+}
 .home .visit-planets {
   padding: 15px;
 }
