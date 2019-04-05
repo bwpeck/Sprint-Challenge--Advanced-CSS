@@ -45,9 +45,15 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    @media(max-width:500px) {
+      .r-columnss;
+    }
 
     .walk-text {
       width: 50%;
+
+      @media(max-width:500px) {
+        .r-columnss;}
 
       h3 {
         margin-bottom: 10px;
@@ -58,12 +64,23 @@
       }
 
       .btn {
+        .buts(center,center);
+        color: white;
+        @media(max-width:500px) {
+          width: 75%
+        }
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+      @media (max-width:500px) {
+        width: 75%;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+      }
       
       img {
         width: 100%;
