@@ -1,1 +1,29 @@
 // Mixins Here
+.columnss {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.r-columnss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+.buts (@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+    background: @btn-bg-color;
+    text-align: center;
+    border-radius: 12px;
+    height: 40px;
+    margin-top: 6px;
+    padding: 8px 8px;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
+}
